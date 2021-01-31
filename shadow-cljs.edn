@@ -1,6 +1,7 @@
 
 {:source-paths ["src"]
  :dependencies []
+ :nrepl {:port 9000}
  :builds {:app {:target :node-script
                 :output-to "target/main.js"
                 :main server.main/main!}}}
